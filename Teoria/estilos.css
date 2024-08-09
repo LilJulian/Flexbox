@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* aling-items es para alinear por el eje x osea el main acces */
+  /* El justify content es para el eje y osea el cross axis */
+}
+
+.body {
+  background-color: aliceblue;
+}
+
+.container {
+  border-radius: solid 2px black;
+  width: 100vh;
+  height: 100vh;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  /* display: inline-flex; */
+  /* flex-direction:  row-reverse ;
+  flex-direction:  column ; */
+  flex-direction: row;
+  /* display: inline-flex;
+  flex-direction: column-reverse; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse;*/
+  /* flex-flow: column wrap; */
+  justify-content: flex-start;
+  /* justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly; */
+  align-items: flex-start;
+  /* align-items: flex-end;
+  align-items: center;
+  align-items: stretch;
+  align-items: baseline; */
+  align-content: flex-start;
+  align-content: flex-end;
+}
+
+.items {
+  background-color: yellowgreen;
+  max-width: 1200px;
+  height: 20vh;
+  width: 20vh;
+  text-align: center;
+  border: solid 1px white;
+  color: aliceblue;
+}
+
+.items__color {
+  background-color: black;
+  max-width: 1200px;
+  height: 20vh;
+  width: 20vh;
+  text-align: center;
+  border: solid 1px white;
+  color: aliceblue;
+}
+
+.contenedor {
+  display: flex;
+  background-color: red;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  align-items: center;
+
+
+}
+
+.item {
+  border: solid 1px rgb(255, 255, 255);
+  background-color: blue;
+  max-width: 1000px;
+  width: 100px;
+  height: 100px;
+  flex-flow: column wrap;
+}

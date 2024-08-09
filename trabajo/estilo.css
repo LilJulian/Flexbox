@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(45, 52, 58);
+}
+
+.contenedor {
+  /* display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+
+  flex-direction: row; */
+}
+
+.navegador {
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 30px;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+.secciones {
+  margin: 3px;
+  padding: 2px;
+}
