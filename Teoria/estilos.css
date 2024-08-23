@@ -40,6 +40,7 @@
   align-items: baseline; */
   align-content: flex-start;
   align-content: flex-end;
+
 }
 
 .items {
@@ -76,8 +77,18 @@
 .item {
   border: solid 1px rgb(255, 255, 255);
   background-color: blue;
-  max-width: 1000px;
-  width: 100px;
-  height: 100px;
   flex-flow: column wrap;
+}
+
+.container .items:nth-child(3) {
+  background-color: steelblue;
+  order: -1;
+}
+
+@media (max-width: 600px) {
+  .container {
+    background-color: red;
+    flex-direction: column;
+
+  }
 }
