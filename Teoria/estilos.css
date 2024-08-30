@@ -39,8 +39,12 @@
   align-items: stretch;
   align-items: baseline; */
   align-content: flex-start;
+<<<<<<< HEAD
   align-content: flex-end;
 
+=======
+  /* align-content: flex-end; */
+>>>>>>> c0f5c97a1a5b91ed51f35005e189d919b0add41a
 }
 
 .items {
